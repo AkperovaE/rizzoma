@@ -1,0 +1,10 @@
+.wrapper_example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper_example h1 {
+  font-size: rem(20);
+}
+/*# sourceMappingURL=wrapper.css.map */

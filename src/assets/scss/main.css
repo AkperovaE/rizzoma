@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.woff") format("woff"), url("/assets/fonts/Montserrat/Regular/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("/assets/fonts/Montserrat/Bold/Montserrat-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/fonts/Montserrat/Bold/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Montserrat/Bold/Montserrat-Bold.woff") format("woff"), url("/assets/fonts/Montserrat/Bold/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("/assets/fonts/Quicksand/Regular/Quicksand-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/fonts/Quicksand/Regular/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Quicksand/Regular/Quicksand-Regular.woff") format("woff"), url("/assets/fonts/Quicksand/Regular/Quicksand-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url("/assets/fonts/Quicksand/Bold/Quicksand-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/fonts/Quicksand/Bold/Quicksand-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Quicksand/Bold/Quicksand-Bold.woff") format("woff"), url("/assets/fonts/Quicksand/Bold/Quicksand-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open-Sans-Bold";
+  src: url("/assets/fonts/Open-Sans/Bold/Open-Sans-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/assets/fonts/Open-Sans/Bold/Open-Sans-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/Open-Sans/Bold/Open-Sans-Bold.woff") format("woff"), url("/assets/fonts/Open-Sans/Bold/Open-Sans-Bold.ttf") format("truetype");
+}
+
+html {
+  line-height: 1.4;
+  font-size: 18px;
+  color: #101010;
+  height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+section, .section {
+  position: relative;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  section, .section {
+    padding: 36px 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  section, .section {
+    padding: 28px 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  section, .section {
+    padding: 20px 0;
+  }
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    max-width: tableWidth;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: phoneWidth;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: smPhoneWidth;
+  }
+}
+
+.wrapper_example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper_example h1 {
+  font-size: 1.11111rem;
+}
+/*# sourceMappingURL=main.css.map */
